@@ -1,0 +1,25 @@
+LAB16 OUTPUT
+
+(base) naimamarseille@Naimas-MacBook-Air-6 Spring 2026 %  /usr/bin/env /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/
+java @/var/folders/f9/7wxn8f6n2hb9f3fdzrfcn6_w0000gn/T/cp_agub6j7jnswor1bmoqv4o7dv3.argfile PSP.MatrixMultiplication 
+
+Testing for n = 1000
+Sequential Time: 11ms
+Parallel Time (8 cores): 3ms
+
+Testing for n = 5000
+Sequential Time: 82ms
+Parallel Time (8 cores): 16ms
+(base) naimamarseille@Naimas-MacBook-Air-6 Spring 2026 % 
+
+
+(base) naimamarseille@Naimas-MacBook-Air-6 Spring 2026 %  /usr/bin/env /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/
+java @/var/folders/f9/7wxn8f6n2hb9f3fdzrfcn6_w0000gn/T/cp_agub6j7jnswor1bmoqv4o7dv3.argfile PSP.RetryLab 
+--- TryThreeTimes Result ---
+Attempt 1: Generated 38
+Attempt 2: Generated 86
+You succeeded
+
+--- TryForEver Result ---
+Success after 2 tries
+(base) naimamarseille@Naimas-MacBook-Air-6 Spring 2026 % 
